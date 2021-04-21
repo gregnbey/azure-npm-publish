@@ -22,6 +22,7 @@ jobs:
       - uses: innerspacetrainings/azure-npm-publish@master
         with:
           package-dir: 'Custom/directory'
+          url: 'eyglobaltaxplatform.pkgs.visualstudio.com'
           npm-email: 'my-microsoft@email.com'
           organization: 'organization/url'
           feed: 'feed-name'
